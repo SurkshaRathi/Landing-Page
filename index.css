@@ -1,0 +1,146 @@
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background: #F9F9F9;
+}
+
+
+
+.leftside , .rightside{
+
+    height: 100vh;
+    width: 100%;
+}
+
+.leftside {
+
+    background:#F9F9F9;
+}
+.rightside {
+
+    background:#E01F4C;
+}
+
+
+.parent-div{
+    position: relative;
+    width: 100%;
+}
+
+.child-div{
+
+   
+    position: absolute;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background:#F9F9F9;
+    z-index: 99;
+    top: 5px;
+    margin: 50px;
+    bottom: 80px;
+    height: 500px; 
+    width: 1200px;
+    
+    padding: 30px;
+    
+}
+
+.navbar-nav{
+
+    left: 50px;
+    position: sticky;
+
+}
+
+.nav-link{
+
+    color:black !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+#nav-bar ul li a:hover{
+
+    color: red !important;
+}
+.navbar-nav li{
+
+    padding: 0,10px;
+}
+.navbar-nav li a {
+
+    padding: 0,10pxl
+}
+
+.man img{
+
+   top: 30px;
+   width: 250px;
+  height: 350px;
+    left: 950px;
+    right: 20px;
+ position: sticky;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  
+ 
+  .card_div{
+
+    position: absolute;
+    z-index: 989;
+    top: 380px;
+    left: 180px;
+    right: 150px;
+    height: 150px;
+
+  }
+  .text{
+      z-index: 985;
+      position: absolute;
+      top: 170px;
+      left: 180px;
+      
+    
+  }
+  h2{
+      font-size:14mm;
+       font-weight: bold;
+       font-family: 'Paytone One', sans-serif;
+  }
+  .but{
+
+   font-size: 4mm;
+   outline-color: #E01F4C !important;
+   border-inline-start-color: #E01F4C;
+   border-bottom-color:#E01F4C;
+   border-top-color: #E01F4C;
+   border-inline-end-color:#E01F4C;
+   color: black;
+  }
+  
+   .but:hover{
+       color: white !important;
+       background-color: #E01F4C;
+   }
+
+  #gentium{
+
+    font-family: 'Paytone One', sans-serif;
+    font-size:6mm;
+    font-weight: bold;
+    
+  }
